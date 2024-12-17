@@ -7,5 +7,6 @@
   },
   "author": "Ivan Volkov",
   "license": "ISC",
-  "description": "Math functions"
+  "description": "Math functions",
+  "repository": "https://github.com/Volkivanv/CubicSpline.git"
 }
