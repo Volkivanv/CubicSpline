@@ -56,13 +56,13 @@ function cSpline(xArray, yArray, x) {
   } while ((0 > (xArray[k] - xArray[k - 1]) * (xArray[k] - x) * (x - xArray[k - 1])) && (k < n));
   return a[k] + b[k] * (x - xArray[k]) + c[k] * sqr(x - xArray[k]) + d[k] * sqr(x - xArray[k]) * (x - xArray[k]);
 }
- 
+
+//argument array
 const xs = [1, 2, 3, 4, 5];
+//function array
 const ys = [9, 3, 6, 2, 4];
  
-// new a Spline object
-
- 
+/
 // get Y at arbitrary X
 console.log(cSpline(xs, ys, 1.4));
  
